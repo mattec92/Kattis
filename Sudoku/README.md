@@ -1,8 +1,6 @@
 # Sudoku
 
-<h1>Problem description</h1>
-
-![Sudoku](https://open.kattis.com/problemimage?problem=sudoku&img=/en/img-0001.png "Sudoku")
+## Problem description
 
 Oh no! Bill just realized that the sudoku puzzle he had spent the last ten minutes trying to solve essentially was last week’s puzzle, only rotated counterclockwise. How cheap! Couldn’t the magazine afford to make a new one every week? Of course, he had no way of knowing about this before he started to solve it, as the holes to fill with digits were different than last week. Nevertheless, realizing that this week’s puzzle was a simple derivative of last week’s certainly took the fun out of solving the rest of it.
 
@@ -24,7 +22,7 @@ The allowed operations are:
 
 An operation is considered being performed on the sudoku solution (rather than on the unsolved puzzle) and always guarantees that if the board before the transformation was a solution to a sudoku puzzle, it still is afterwards.
 
-<h2>Input</h2>
+###Input
 
 The input starts with the number of test cases 0≤N≤50 on a single line.
 
@@ -34,13 +32,14 @@ Last week’s solution is followed by nine lines describing this week’s unsolv
 
 After every test case except the last one follows a blank line. Every unsolved puzzle is guaranteed to be uniquely solvable and last week’s solution is always a proper sudoku solution.
 
-<h2>Output</h2>
+###Output
 
 For every test case, output “Yes” if the sudoku puzzle can be derived from the given solved puzzle using the allowed operations, or “No” if this is not possible.
 
 
-<h3>Sample Input</h3>
+####Sample Input
 
+```
 2
 963174258
 178325649
@@ -79,8 +78,11 @@ For every test case, output “Yes” if the sudoku puzzle can be derived from t
 107000056
 040080210
 208001090
+```
 
-<h3>Sample Output</h3>
+####Sample Output
 	
+```
 Yes
 No
+```
